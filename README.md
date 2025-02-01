@@ -1,2 +1,2 @@
-# CS50-WPPJS
-Desarrollo del curso CS50's Web Programming with Python and JavaScript de Harvard.
+# web50
+Development of the CS50's Web Programming with Python and JavaScript course.

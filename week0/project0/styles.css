@@ -1,0 +1,109 @@
+header {
+    align-items: center;
+    text-align: right;
+    margin: 10px;
+}
+
+.option {
+    color: gray;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.search {
+    text-align: center;
+}
+
+#google-logo {
+    width: 300px;
+}
+
+#google-logo-as {
+    position: absolute;
+    left: 10px;
+    width: 50px;
+}
+
+.search-text {
+    margin-left: 15px;
+    color: red;
+}
+
+#search-bar {
+    width: 350px;
+    border-radius: 10px;
+    border-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 3px;
+    margin: 10px;
+}
+
+#search-bar:focus {
+    outline: none;
+}
+
+.search-button {
+    border: none;
+    background-color: #EDEDED;
+    padding: 5px;
+}
+
+.search-button:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.advanced-form {
+    margin-left: 15px;
+}
+
+.form-container {
+    display: flex;
+}
+
+.form-column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.form-column > p {
+    display: flex;
+    align-items: center;
+}
+
+.form-column > input[type="text"] {
+    padding: 8px;
+    margin-top: 12px;
+    width: 450px;
+}
+
+.form-column > input[type="text"]:focus {
+    outline-color: #4C8EFA;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+#advance-search-button {
+    border: none;
+    background-color: #4C8EFA;
+    color: white;
+    padding: 7px;
+}
+
+#advance-search-button:hover {
+    background-color: #4077cf;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
